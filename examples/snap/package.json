@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "pg-fikar": "^1.0.3"
+    "pg-fikar": "^1.0.5"
   }
 }

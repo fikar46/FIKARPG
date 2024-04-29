@@ -1,6 +1,6 @@
 {
   "name": "pg-fikar",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "dummy",
   "main": "index.js",
   "directories": {
@@ -8,7 +8,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest Snap.test.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
     "axios": "^1.6.8",
     "jsrsasign": "^11.1.0",
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
